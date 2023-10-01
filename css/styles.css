@@ -1,6 +1,6 @@
 :root {
     --primary-brand-color: #4d5ae5;
-    --pressed-state-color: #404bff;
+    --pressed-state-color: #404bbf;
     --dark-color: #2e2f42;
     --success-color: #31d0aa;
     --text-color: #434455;
@@ -163,6 +163,18 @@ body {
    
 }
 .section-team-header {
+   color: var(--dark-color);
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   text-transform: capitalize;
+}
+.card-background {
+    background-color: var(--white-background-color);
+  
+}
+.section-team-name {
     color: var(--dark-color);
     font-size: 20px;
     font-weight: 500;
