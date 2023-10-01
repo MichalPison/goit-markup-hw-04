@@ -65,7 +65,7 @@ body {
     letter-spacing: 0.04em;
 }
 
-.portfolio-button:hover,
+.portfolio-button:hover 
  .portfolio-button:focus {
     background-color: var(--primary-brand-color);
     color: var(--white-background-color);
@@ -134,7 +134,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.72em;
     text-transform: capitalize; 
 }
 .section-team {
