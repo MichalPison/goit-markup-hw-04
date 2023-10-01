@@ -13,12 +13,12 @@
     --modal-background-color: #fcfcfc;
 }
 body {
-  font-family: 'roboto', 'sans-serif';
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: var(--white-background-color);
 }
 .logo {
-    font-family: 'Raleway', 'sans-serif';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
