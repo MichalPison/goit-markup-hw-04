@@ -82,12 +82,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+.cursor {
+    cursor: pointer;
+}
 
 .portfolio-button:hover, 
 .portfolio-button:focus {
-    background-color: var(--primary-brand-color);
+    background-color: var(--pressed-state-color);
     color: var(--white-background-color);
-    cursor: pointer;
 }
 
 .main_description {
@@ -112,6 +114,7 @@ body {
 
 .section-one-text {
     color: var(--white-background-color);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -129,9 +132,8 @@ body {
 
 .button-index:hover,
 .button-index:focus {
-    background-color: var(--white-background-color);
-    color: var(--primary-brand-color);
-    cursor: pointer;
+    background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
 }
 
 .section-two-header {
