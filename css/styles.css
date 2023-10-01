@@ -17,6 +17,12 @@ body {
   color: var(--text-color);
   background-color: var(--white-background-color);
 }
+
+
+.address {
+    font-style: normal;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -27,21 +33,22 @@ body {
     color: var(--primary-brand-color);
     text-decoration: none;
 }
+
 .logo-header {
     color: var(--dark-color);
 }
+
 .logo-footer {
     color: var(--light-color)
 }
+
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
-.logo-link {
-    text-decoration: none;
-}
+
 .navi-link {
     font-weight: 500;
     font-size: 16px;
@@ -78,11 +85,87 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
+ 
+.section-one {
+    background-color: var(--dark-color);
+    width: 1440px;
+    height: 600px;
+}
+
+.section-one-text {
+    width: 496px;
+    color: var(--white-background-color);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.button-index {
+    font-family: inherit;
+    background-color: var(--primary-brand-color);
+    color: var(--white-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.button-index:hover,
+.button-index:focus {
+    background-color: var(--white-background-color);
+    color: var(--primary-brand-color);
+    cursor: pointer;
+}
+.section-two {
+    width: 264px;
+}
+.section-two-header {
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.section-two-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.section-three-header {
+    color: var(--dark-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize; 
+}
+.section-team {
+    background-color: var(--light-color);
+    width: 1440px;
+    height: 732px;
+}
+.section-team-header {
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.section-team-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
 .footer {
     background-color: var(--dark-color);
     width: 1440px;
-    height: 312px; 
+    height: 312px;
 }
+
 .footer-text {
     color: var(--light-color);
     font-size: 16px;
