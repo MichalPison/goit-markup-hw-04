@@ -39,3 +39,28 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
+.portfolio-button .portfolio-button-all {
+    font-family: inherit;
+    background: var(--light-color);
+    color: var(--primary-brand-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.portfolio-button-all:hover {
+    background-color: var(--primary-brand-color);
+}
+.portfolio-button-all:focus {
+    background: var(--white-background-color);
+    cursor: pointer;
+}
+.portfolio-button:hover {
+    background: var(--primary-brand-color);
+    color: var(--white-background-color);
+}
+.portfolio-button:focus {
+    background: var(--primary-brand-color);
+    color: var(--white-background-color); 
+}
