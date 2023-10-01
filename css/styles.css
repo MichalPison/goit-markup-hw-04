@@ -62,7 +62,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04px;
+    letter-spacing: 0.04em;
 }
 
 .portfolio-button:hover,
@@ -94,7 +94,6 @@ body {
 }
 
 .section-one-text {
-    width: 496px;
     color: var(--white-background-color);
     font-size: 56px;
     font-weight: 700;
@@ -117,9 +116,7 @@ body {
     color: var(--primary-brand-color);
     cursor: pointer;
 }
-.section-two {
-    width: 264px;
-}
+
 .section-two-header {
     color: var(--dark-color);
     font-size: 20px;
@@ -143,8 +140,7 @@ body {
 }
 .section-team {
     background-color: var(--light-color);
-    width: 1440px;
-    height: 732px;
+   
 }
 .section-team-header {
     color: var(--dark-color);
