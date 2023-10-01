@@ -23,6 +23,15 @@ body {
     font-style: normal;
 }
 
+.address-links .link:hover,
+.address-links .link:focus,
+.address-links .link:active,
+.navi-links .link:hover,
+.navi-links .link:focus,
+.navi-links .link:active {
+    color: var(--pressed-state-color);
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
