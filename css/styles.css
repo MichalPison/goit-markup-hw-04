@@ -7,6 +7,35 @@
     --subtle-text-color: #8e8f99;
     --accent-color: #e7e9fc;
     --light-color: #f4f4fd;
-    --modal-overlay-color: #2e2f42; 
-
+    --modal-overlay-color: #2e2f4266; 
+    --hero-background-color: #2e2f42b3;
+    --white-background-color: #ffffff;
+    --modal-background-color: #fcfcfc;
+}
+body {
+  font-family: 'roboto', 'sans-serif';
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+}
+.logo {
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+    text-decoration: none;
+}
+.logo-header {
+    color: var(--dark-color);
+}
+.list {
+    list-style: none;
+}
+.navi-link {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
 }
