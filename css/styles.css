@@ -23,14 +23,6 @@ body {
     font-style: normal;
 }
 
-.address-links .link:hover,
-.address-links .link:focus,
-.address-links .link:active,
-.navi-links .link:hover,
-.navi-links .link:focus,
-.navi-links .link:active {
-    color: var(--pressed-state-color);
-}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -61,7 +53,8 @@ body {
 .navi-links .link {
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.02px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
     color: var(--dark-color);
 }
 
@@ -71,6 +64,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32;
 }
+.address-links .link:hover,
+.address-links .link:focus,
+.address-links .link:active,
+.navi-links .link:hover,
+.navi-links .link:focus,
+.navi-links .link:active {
+    color: var(--pressed-state-color);
+}
+
 .portfolio-button {
     font-family: inherit;
     background-color: var(--light-color);
