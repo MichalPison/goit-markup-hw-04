@@ -64,7 +64,7 @@ body {
     letter-spacing: 0.02px;
     color: var(--dark-color);
 }
-.portfolio-button  {
+.portfolio-button {
     font-family: inherit;
     background-color: var(--light-color);
     color: var(--primary-brand-color);
@@ -74,8 +74,8 @@ body {
     letter-spacing: 0.04em;
 }
 
-.portfolio-button:hover 
- .portfolio-button:focus {
+.portfolio-button:hover, 
+.portfolio-button:focus {
     background-color: var(--primary-brand-color);
     color: var(--white-background-color);
     cursor: pointer;
@@ -165,8 +165,7 @@ body {
 }
 
 .footer {
-    background-color: var(--dark-color);
-  
+    background-color: var(--dark-color); 
 }
 
 .footer-text {
