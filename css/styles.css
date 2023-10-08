@@ -58,7 +58,7 @@ body {
     gap: 290px;
 }  
  .header {
-    height: 72px;
+    display: flex;
     border-bottom: 1px solid var(--accent-color);
 }
 h1,
