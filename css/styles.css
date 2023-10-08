@@ -283,6 +283,10 @@ ol {
     letter-spacing: 0.72px;
     text-transform: capitalize; 
 }
+
+.container-team {
+    padding: 32px 0px;
+}
 .section-team {
     background-color: var(--light-color);
     padding: 120px 0;   
