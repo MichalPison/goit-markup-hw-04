@@ -244,6 +244,7 @@ ol {
 }
 .values-list {
     display: flex;
+
     gap: 24px;
 }
 .value {
@@ -373,7 +374,7 @@ ol {
     border: 1px solid var(--accent-color);
     border-top: none;
 }
-.description {
+.main_description {
     margin-bottom: 8px;
 
 }
