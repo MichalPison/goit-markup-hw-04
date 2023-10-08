@@ -53,9 +53,9 @@ body {
 
 .two-container {
     display: flex;
-    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
     height: 72px;
-    gap: 290px;
 }  
  .header {
     display: flex;
