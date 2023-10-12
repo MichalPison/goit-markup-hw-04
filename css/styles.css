@@ -8,7 +8,7 @@
     --accent-color: #e7e9fc;
     --light-color: #f4f4fd;
     --modal-overlay-color: #2e2f4266; 
-    --hero-background-color: #2e2f42b3;
+    --hero-background-color: #2e2f42b2;
     --white-background-color: #ffffff;
     --modal-background-color: #fcfcfc;
     
@@ -153,13 +153,6 @@ ol {
 .navi-links .link:active {
     color: var(--pressed-state-color);
 }
-.effective-solution {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 40px;
-}
 
 
 .portfolio-button {
@@ -201,23 +194,35 @@ ol {
 
  
 .section-one {
+    display: flex;
     background-color: var(--dark-color);
     padding: 188px 0;
+    margin: 0 auto;
+    background-image: radial-gradient(at center, var(--hero-background-color), var(--hero-background-color)), url("/images/people-office.jpg");
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
+}
+.effective-solution {
     display: flex;
-    
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
 }
 
 .section-one-text {
     color: var(--white-background-color);
-    text-align: center;
     font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
-    max-width: 496px;
-    align-items: center;
-    justify-content: center;
-}
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 48px;
+ }
+
 .button-index {
     font-family: inherit;
     background-color: var(--primary-brand-color);
