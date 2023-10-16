@@ -338,6 +338,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-align: center;
+    
 }
 
 .footer {
@@ -389,4 +390,86 @@ ol {
 .main_description {
     margin-bottom: 8px;
 
+}
+.icon-box-one {
+    background-color: var(--light-color);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.icon-box-one > svg {
+    width: 64px;
+    height: 64px;
+}
+.social-media {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.social-media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-brand-color);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-icon > svg {
+    width: 16px;
+    height: 16px;
+}
+
+.social-media-icon:hover,
+.social-media-icon:focus {
+    background-color: var(--success-color);
+}
+.li-social {
+    width: calc((100% - 3 * 24) / 4);
+}
+.cunstomers {
+    padding: 120px 0;
+}
+.cunstomers-header {
+    color: var(--dark-color);
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.cunstomers-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.cunstomers-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--subtle-text-color);
+    border-radius: 4px;
+    color: var(--subtle-text-color);
+}
+.cunstomers-icon > svg {
+    display: block;
+    width: 104px;
+    height: 56px;
+    fill: currentColor;
+}
+.cunstomers-icon:hover,
+.cunstomers-icon:focus {
+    border-color: var(--pressed-state-color);
+    color: var(--pressed-state-color);
 }
