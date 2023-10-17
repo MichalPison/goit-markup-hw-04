@@ -419,6 +419,9 @@ border: 1px solid var(--light-color);
     width: 40px;
     height: 40px;
 }
+.sm-team {
+    fill:var(--light-color)
+}
 
 .social-media-icon:hover,
 .social-media-icon:focus {
