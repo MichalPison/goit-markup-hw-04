@@ -60,6 +60,9 @@ body {
  .header {
     display: flex;
     border-bottom: 1px solid var(--accent-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 h1,
 h2,
@@ -425,10 +428,10 @@ border: 1px solid var(--light-color);
 .li-social {
     width: calc((100% - 3 * 24) / 4);
 }
-.cunstomers {
+.customers {
     padding: 120px 0;
 }
-.cunstomers-header {
+.customers-header {
     color: var(--dark-color);
     font-size: 36px;
     font-weight: 700px;
@@ -438,12 +441,12 @@ border: 1px solid var(--light-color);
     text-align: center;
     margin-bottom: 72px;
 }
-.cunstomers-list {
+.customers-list {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.cunstomers-icon {
+.customers-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -453,14 +456,14 @@ border: 1px solid var(--light-color);
     border-radius: 4px;
     color: var(--subtle-text-color);
 }
-.cunstomers-icon > svg {
+.customers-icon > svg {
     display: block;
     width: 104px;
     height: 56px;
     fill: currentColor;
 }
-.cunstomers-icon:hover,
-.cunstomers-icon:focus {
+.customers-icon:hover,
+.customers-icon:focus {
     border-color: var(--pressed-state-color);
     color: var(--pressed-state-color);
 }
