@@ -415,7 +415,7 @@ border: 1px solid var(--light-color);
     justify-content: center;
     align-items: center;
     background-color: var(--primary-brand-color);
-    border-radius: 50px;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
 }
