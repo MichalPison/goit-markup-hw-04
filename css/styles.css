@@ -183,6 +183,7 @@ ol {
     max-width: 1440px;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .effective-solution {
     display: flex;
