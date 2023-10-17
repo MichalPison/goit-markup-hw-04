@@ -511,7 +511,7 @@ border: 1px solid var(--light-color);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    margin-top: 0;
+    margin-bottom: 16px;
 }
 .container-footer {
     display: flex;
