@@ -416,11 +416,11 @@ border: 1px solid var(--light-color);
     width: 40px;
     height: 40px;
 }
-
-.social-media-icon > svg {
+.social-media-icon>svg {
     width: 16px;
     height: 16px;
 }
+
 
 .social-media-icon:hover,
 .social-media-icon:focus {
@@ -503,7 +503,7 @@ border: 1px solid var(--light-color);
 }
 .footer-social-icon:hover,
 .footer-social-icon:focus {
-    fill: var(--success-color);
+    background-color: #31d0aa;
 }
 
 .social-media-heading {
