@@ -469,7 +469,7 @@ ol {
 .customers-icon:hover,
 .customers-icon:focus {
     border: 1px solid var(--primary-brand-color);
-    color: var(--pressed-state-color);
+    border-color: var(--pressed-state-color);
 }
 .customers-icon-li {
     width: calc((100% - 5 * 24px) / 6);
