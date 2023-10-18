@@ -166,7 +166,7 @@ ol {
     background-color: var(--dark-color);
     padding: 188px 0;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/people-office.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
     max-width: 1440px;
     background-position: center;
     background-size: cover;
@@ -374,6 +374,9 @@ ol {
     background-color: var(--pressed-state-color);
     color: var(--white-background-color);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main_description {
@@ -400,10 +403,7 @@ ol {
     align-items: center;
     margin-bottom: 8px;
 }
-.icon-box-one > svg {
-    width: 64px;
-    height: 64px;
-}
+
 .social-media {
     display: flex;
     gap: 24px;
@@ -462,14 +462,17 @@ ol {
 }
 .customers-icon > svg {
     display: block;
-    width: 104px;
-    height: 56px;
+    width: 168px;
+    height: 88px;
     
 }
 .customers-icon:hover,
 .customers-icon:focus {
-    border-color: var(--primary-brand-color);
-
+    border: 1px solid var(--primary-brand-color);
+    color: var(--pressed-state-color);
+}
+.customers-icon-li {
+    width: calc((100% - 5 * 24px) / 6);
 }
 
 .client-icon:hover,
